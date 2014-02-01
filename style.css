@@ -1,0 +1,62 @@
+body > *{
+	outline: 1px dotted black;
+}
+body > * > *{
+	outline: 1px dotted blue;
+}
+body > * > * > *{
+	outline: 1px dotted green;
+}
+body > * > * > * > *{
+	outline: 1px dotted red;
+}
+
+body {
+	background-image: url('images/backguid.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.container{
+	min-height: 2000px;
+}
+
+header{
+	min-height: 83px;
+}
+
+nav menu{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+nav menu li{
+	float: right;
+}
+
+.banner{
+	min-height: 440px;
+}
+
+.flashnews{
+	margin-top: 60px;
+	padding: 20px;
+}
+.flashnews .btn{
+	float: right;
+	width: 160px;
+	height: 45px;
+	background-color: lightgreen;
+}
+
+.flashnews h1,
+.flashnews p{
+	margin: 0;
+}
+
+.sliders{
+	margin-top: 80px;
+}
+.sliders>div{
+	min-height: 200px;
+}
