@@ -60,3 +60,6 @@ nav menu li{
 .sliders>div{
 	min-height: 200px;
 }
+a{
+	color:red;
+}
